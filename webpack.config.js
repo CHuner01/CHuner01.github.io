@@ -7,6 +7,7 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true, // очищает dist/ перед сборкой
+        publicPath: '/CHuner01.github.io/',
     },
     module: {
         rules: [
