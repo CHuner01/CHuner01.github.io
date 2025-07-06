@@ -21,6 +21,7 @@
   "bugs": {
     "url": "git+https://github.com/CHuner01/CHuner01.github.io.git/issues"
   },
+  "homepage": "https://chuner01.github.io",
   "dependencies": {
     "-": "^0.0.1",
     "css-loader": "^7.1.2",
