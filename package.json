@@ -1,0 +1,37 @@
+{
+  "name": "shri2025-task",
+  "version": "1.0.0",
+  "description": "Оптимизировать страницу, выложить результат на Github-Pages и отправить его на проверку на [https://shri-performance.ru/](https://shri-performance.ru/), отправив адрес вашей страницы. Нужно набрать минимум **80 баллов**. Набрать больше баллов возможно, но больше 120 в зачёт не пойдёт.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-file public/bundle.js",
+    "watch": "babel src --out-file public/bundle.js --watch",
+    "start": "npx serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHuner01/PerfomanceYandexHomeWork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CHuner01/PerfomanceYandexHomeWork/issues"
+  },
+  "homepage": "https://github.com/CHuner01/PerfomanceYandexHomeWork#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/plugin-transform-runtime": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/runtime": "^7.27.6",
+    "serve": "^14.2.4"
+  }
+}
